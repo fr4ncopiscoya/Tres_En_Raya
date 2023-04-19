@@ -1,0 +1,29 @@
+#game {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+  }
+  
+  .row {
+    display: flex;
+    flex-basis: 33.33%;
+    height: 33.33%;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square:hover {
+    background-color: lightgray;
+  }
+  
